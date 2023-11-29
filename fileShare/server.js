@@ -1,5 +1,5 @@
 //Node server which will handle all Socket.io file sharing connections
-const io = require("socket.io")(5500,{cors:"https://file-share-aab9.onrender.com"});
+const io = require("socket.io")(5500,{cors:"https://chat-verse-file-share.onrender.com"});
 
 console.log("Server.js running on port 5500");
 

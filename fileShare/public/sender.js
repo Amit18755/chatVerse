@@ -3,7 +3,7 @@
 (function(){
     console.log("Sender");
     let receiverID;
-    const socket = io('https://file-share-aab9.onrender.com');
+    const socket = io('https://chat-verse-file-share.onrender.com');
 
     function generateID(){
         return `${Math.trunc(Math.random()*999)} - ${Math.trunc(Math.random()*999)} - ${Math.trunc(Math.random()*999)}`

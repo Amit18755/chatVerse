@@ -1,5 +1,5 @@
 //Node server which will handle all Socket.io chatting connections
-const io = require('socket.io')(8000,{cors : 'https://chatbox-o38b.onrender.com'});
+const io = require('socket.io')(8000,{cors : 'https://chat-verse-live-chat.onrender.com'});
 
 
 //Dictionary to maintain rooms and its users
